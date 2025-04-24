@@ -8,7 +8,7 @@ DB_CONFIG = {
     'host': 'aws-0-eu-north-1.pooler.supabase.com',
     'dbname': 'postgres',
     'user': 'postgres.cgrpfqixtfxdcrvebeag',
-    'password': 'YOUR-PASSWORD',  # replace with your actual Supabase DB password
+    'password': 'o51923898G',  # replace with your actual Supabase DB password
     'port': '6543'
 }
 
