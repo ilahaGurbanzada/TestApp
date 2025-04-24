@@ -32,10 +32,11 @@ if uploaded_file:
             cursor = conn.cursor()
 
             for _, row in df.iterrows():
-                cursor.execute(sql.SQL("""
-                    INSERT INTO uploaded_data (col1, col2, col3)
-                    VALUES (%s, %s, %s)
-                """), (row["col1"], row["col2"], row["col3"]))
+               cursor.execute(sql.SQL("""
+    INSERT INTO uploaded_data (col1, col2, col3)
+    VALUES (%s, %s, %s)
+"""), (row["name"], row["calories"], row["protein"]))
+
 
             conn.commit()
             cursor.close()
