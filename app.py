@@ -5,11 +5,11 @@ from psycopg2 import sql
 
 # ---------------------- CONFIG ----------------------
 DB_CONFIG = {
-    'host': 'db.cgrpfqixtfxdcrvebeag.supabase.co',
+    'host': 'aws-0-eu-north-1.pooler.supabase.com',
     'dbname': 'postgres',
-    'user': 'postgres',
-    'password': 'o51923898G',  # replace this with your actual Supabase password
-    'port': '5432'
+    'user': 'postgres.cgrpfqixtfxdcrvebeag',
+    'password': 'YOUR-PASSWORD',  # replace with your actual Supabase DB password
+    'port': '6543'
 }
 
 # ---------------------- DB Connection ----------------------
